@@ -1,0 +1,42 @@
+// Style file for terminal-css
+// Defines various styles for terminal use
+
+@element "header" {
+    color: cyan;
+    background: black;
+    decoration: bold;
+    padding: 1;
+    border: solid blue;
+}
+
+@element "warning" {
+    color: yellow;
+    background: black;
+    decoration: bold;
+    padding: 1;
+    border: dashed red;
+}
+
+@element "info" {
+    color: blue;
+    background: black;
+    decoration: italic;
+    padding: 1 2;
+    border: rounded cyan;
+}
+
+@element "success" {
+    color: green;
+    background: black;
+    decoration: bold;
+    padding: 1;
+    border: solid green;
+}
+
+@element "error" {
+    color: red;
+    background: black;
+    decoration: bold blink;
+    padding: 1;
+    border: dashed magenta;
+} 

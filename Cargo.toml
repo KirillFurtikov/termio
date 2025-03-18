@@ -1,0 +1,37 @@
+[package]
+name = "termio"
+version = "0.1.0"
+edition = "2021"
+description = "A Rust library for styling terminal output with CSS-like syntax"
+license = "MIT"
+repository = "https://github.com/KirillFurtikov/termio"
+readme = "README.md"
+keywords = ["terminal", "css", "style", "ansi", "formatting"]
+categories = ["text-processing"]
+
+[dependencies]
+unicode-width = "0.2.0"
+
+[[example]]
+name = "basic"
+path = "examples/basic.rs"
+
+[[example]]
+name = "advanced"
+path = "examples/advanced.rs"
+
+[[example]]
+name = "colors"
+path = "examples/colors.rs"
+
+[[example]]
+name = "decorations"
+path = "examples/decorations.rs"
+
+[[example]]
+name = "borders"
+path = "examples/borders.rs"
+
+[[example]]
+name = "macro"
+path = "examples/macro.rs"
